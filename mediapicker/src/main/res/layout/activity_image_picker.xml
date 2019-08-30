@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+    <RelativeLayout
+        android:id="@+id/picker_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        >
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer_panel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fc22292c"
+        >
+
+      <Button
+          android:id="@+id/btn_dir"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_centerVertical="true"
+          android:background="@null"
+          android:drawablePadding="4dp"
+          android:drawableRight="@drawable/text_indicator"
+          android:ellipsize="end"
+          android:gravity="center_vertical"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:singleLine="true"
+          android:text="@string/general_all_pictures"
+          android:textAllCaps="false"
+          android:textColor="#ffffff"
+          android:textSize="16dp"
+          />
+
+
+      <TextView
+          android:id="@+id/sureTv"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:layout_marginRight="16dp"
+          android:text="@string/general_ok"
+          android:textColor="@color/colorPrimary"
+          android:textSize="16sp"
+          />
+
+
+      <TextView
+          android:id="@+id/selected_image_size"
+          android:layout_width="@dimen/dp_20"
+          android:layout_height="@dimen/dp_20"
+          android:layout_centerVertical="true"
+          android:layout_marginEnd="9dp"
+          android:layout_marginRight="9dp"
+          android:layout_toLeftOf="@id/sureTv"
+          android:layout_toStartOf="@id/sureTv"
+          android:background="@drawable/circle_color_ff8453_size_20dp"
+          android:gravity="center"
+          android:includeFontPadding="false"
+          android:textColor="@android:color/white"
+          android:textSize="16sp"
+          />
+
+      <!--<com.guanaitong.aiframework.imagepicker.widget.CounterTextView-->
+      <!--android:layout_width="wrap_content"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--/>-->
+
+
+      <!--<com.guanaitong.aiframework.imagepicker.widget.CounterCheckBox-->
+      <!--android:id="@+id/selected_image_size"-->
+
+      <!--android:layout_width="@dimen/dp_20"-->
+      <!--android:layout_height="@dimen/dp_20"-->
+      <!--android:layout_centerVertical="true"-->
+      <!--android:layout_marginEnd="9dp"-->
+      <!--android:layout_marginRight="9dp"-->
+      <!--android:layout_toLeftOf="@id/sureTv"-->
+      <!--android:layout_toStartOf="@id/sureTv"-->
+      <!--/>-->
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/picker_bottom"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginTop="-2dp"
+        />
+  </RelativeLayout>
+</LinearLayout>
+

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#ff8453</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_48baf3">#48baf3</color>
+    <color name="gray">#aaa</color>
+    <color name="crop_image_bg">#AA000000</color>
+
+    <color name="transparent_70_black">#4C000000</color>
+    <color name="transparent_70_white">#4CFFFFFF</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    <color name="color_111">#111</color>
+    <color name="app_color">#113864</color>
+    <color name="image_bg">#cccccc</color>
+    <color name="line_color">#cccccc</color>
+    <color name="white">#ffffff</color>
+
+    <drawable name="select_normal">#00000000</drawable>
+    <drawable name="select_pressed">#cccccc</drawable>
+
 </resources>

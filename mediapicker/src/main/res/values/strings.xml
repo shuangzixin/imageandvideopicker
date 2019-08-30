@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">mediapicker</string>
+    <string name="app_name">ImagePicker</string>
+
+    <string name="general_ok">确定</string>
+    <string name="general_back">返回</string>
+
+    <string name="general_cancel">取消</string>
+    <string name="general_send">发送</string>
+    <string name="general_original">原图</string>
+    <string name="bracket_str">(%1$s)</string>
+    <string name="bracket_num">(%1$d)</string>
+    <string name="error_maximun_nine_photos">最多选择 %1$d 张图片</string>
+    <string name="general_all_pictures">所有图片</string>
+    <string name="general_all_videos">所有视频</string>
+    <string name="piece">张</string>
+    <string name="one">个</string>
+    <string name="string_beyong_max">你最多只能选择%d张照片</string>
+    <string name="string_beyong_max_video">你最多只能选择%d个视频</string>
+    <string name="string_i_know">我知道了</string>
+    <string name="string_has_selected">已选 %d 张</string>
+    <string name="string_has_selected_video">已选 %d 个</string>
 </resources>

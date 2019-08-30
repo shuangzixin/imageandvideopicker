@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_custom_titlebar_height">48dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+</resources>

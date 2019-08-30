@@ -1,11 +1,51 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.mediapicker">
+<!--
+  ~ /*
+  ~  * Copyright (C) 2017 CIIC Guanaitong, Co.,Ltd.
+  ~  * All rights reserved.
+  ~  */
+  -->
 
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.app.imagepicker">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application android:allowBackup="true" android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".activity.ImagePickerActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.VideoPickerActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.ImagePreviewActivity"
+            android:theme="@style/NotitleTheme" />
+
+        <activity
+            android:name=".activity.VideoPreviewActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/NotitleTheme" />
+
+        <activity
+            android:name=".activity.ImageCropActivity"
+            android:theme="@style/NotitleTheme"/>
+
+    </application>
+
 </manifest>
