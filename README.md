@@ -1,4 +1,7 @@
 # imageandvideopicker
 包含只选择图片、选图后裁剪、只选择视频的功能
 
-Isn’t today a **wonderful** day?
+## 主要使用流程如下：
+- 无序列表1 
+- 无序列表2 
+- 无序列表3
