@@ -81,24 +81,6 @@
           android:textSize="16sp"
           />
 
-      <!--<com.guanaitong.aiframework.imagepicker.widget.CounterTextView-->
-      <!--android:layout_width="wrap_content"-->
-      <!--android:layout_height="wrap_content"-->
-      <!--/>-->
-
-
-      <!--<com.guanaitong.aiframework.imagepicker.widget.CounterCheckBox-->
-      <!--android:id="@+id/selected_image_size"-->
-
-      <!--android:layout_width="@dimen/dp_20"-->
-      <!--android:layout_height="@dimen/dp_20"-->
-      <!--android:layout_centerVertical="true"-->
-      <!--android:layout_marginEnd="9dp"-->
-      <!--android:layout_marginRight="9dp"-->
-      <!--android:layout_toLeftOf="@id/sureTv"-->
-      <!--android:layout_toStartOf="@id/sureTv"-->
-      <!--/>-->
-
     </RelativeLayout>
 
     <androidx.recyclerview.widget.RecyclerView

@@ -1,10 +1,3 @@
-/*
- *
- *  * Copyright (C) 2017 CIIC Guanaitong, Co.,Ltd.
- *  * All rights reserved.
- *
- */
-
 package com.app.imagepicker.activity;
 
 import android.app.Activity;

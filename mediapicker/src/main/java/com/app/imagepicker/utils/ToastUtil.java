@@ -1,8 +1,3 @@
-/*
- * Copyright (C) 2017 CIIC Guanaitong, Co.,Ltd.
- * All rights reserved.
- */
-
 package com.app.imagepicker.utils;
 
 import android.content.Context;
