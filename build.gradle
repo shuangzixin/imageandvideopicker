@@ -26,12 +26,3 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
-//直接通过task函数去创建
-task HelloTask {
-    println 'hello task'
-}
-//通过TaskContainer去创建Task
-this.tasks.create(name: 'hellotask2') {
-    println 'hello task2'
-}
