@@ -17,6 +17,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
     }
     //指定jdk版本
     compileOptions {
@@ -29,4 +33,12 @@ dependencies {
     implementation project(path: ':imageloader')
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+}
+
+this.afterEvaluate {
+    this.android.applicationVariants.all { variant ->
+        def name = variant.name
+        def baseName = variant.baseName
+        println 'the name is :${name}' + '  the baseName is :${baseName}'
+    }
 }
